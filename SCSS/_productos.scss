@@ -1,0 +1,63 @@
+.titleTable{
+	background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 1.5rem;
+	font-family: 'Arial', 'Helvetica';
+	color: black;
+	text-decoration: underline;
+	@media all and (min-width: 992px){
+		font-size: 2rem;
+	}
+	.foto{
+		display: none;
+		@media all and (min-width: 992px){
+			display: inline-block;
+		}
+	}
+}
+
+.padre{
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: auto;
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	color: black;
+	@media all and (min-width: 768px){
+		margin-bottom: 10px;
+	}
+	@media all and (min-width: 992px){
+		font-size: 2rem;
+		margin-bottom: 10px;
+	}
+	div{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+		margin-bottom: 5px;
+		transition: all 0.2s ease-in-out;
+		@media all and (min-width: 992px){
+			&:hover{
+				transform: scale(1.1);
+			}
+		}
+	}
+	img{
+		display: none;
+		@media all and (min-width: 992px){
+			display: inline-block;
+			width: 7%;
+			transition: all 0.2s ease-in-out;
+			&:hover{
+				transform: scale(3.5);
+			}
+		}
+	}
+}

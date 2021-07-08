@@ -1,0 +1,162 @@
+body{
+	background-image: url('../media/bgImage.jpg');
+}
+
+.header{
+	background-color: black;
+	border-bottom: 1px solid #e71d36;
+	img{
+		width: 80%;
+	}
+	a{
+		font-family: 'Arial', 'Helvetica';
+		font-size: 1.5rem;
+		font-weight: 600;
+		text-decoration: none;
+		color: #e71d36;
+		transition: all 0.2s ease-in-out;
+		&:hover{
+			color: #e8e8e8;
+		}
+		@media all and (min-width: 992px){
+			margin-right: 50px;
+		}
+	}
+	.button{
+		background-color: #e71d36;
+	}
+}
+
+.title{
+	font-size: 3.5rem;
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+	color: #e71d36;
+	margin: 10px 0px;
+	@media all and (min-width: 768px){
+		font-size: 5rem;
+	}
+}
+
+.title2{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2.5rem;
+	text-align: center;
+	color: #e71d36;
+	@media all and (min-width: 768px){
+		font-size: 3rem;
+	}
+	@media all and (min-width: 992px){
+		font-size: 3.5rem;
+		text-align: left;
+		margin: 30px 0px 30px 35px;
+	}
+}
+
+.title3{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 1.5rem;
+	margin-left: 125px;
+	margin-top: 10px;
+}
+
+.subtitle{
+	color: black;
+	font-family: 'Arial', 'Helvetica';
+	text-align: center;
+}
+
+.promo{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2rem;
+	text-align: justify;
+	margin-bottom: 10px;
+	img{
+		width: 100%;
+	}
+	@media all and (min-width: 768px){
+		flex-direction: row;
+		font-size: 2.2rem;
+	}
+	@media all and (min-width: 992px){
+		font-size: 3.5rem;
+		margin: 50px 0px;
+		color: black;
+	}
+}
+
+.productos{
+	font-family: 'Arial', 'Helvetica';
+	font-size: 2rem;
+	flex-direction: column;
+	@media all and (min-width: 992px){
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 50px;
+	}
+	.prod p{
+		font-size: 2.5rem;
+	}
+	div{
+		max-width: 540px;
+		@media all and (min-width: 768px){
+			max-width: 620px;
+		}
+		@media all and (min-width: 992px){
+			max-width: 650px;
+		}
+	}
+}
+
+.prod{
+	background-color: black;
+	color: #e71d36;
+	margin-bottom: 5px;
+}
+
+h5{
+	font-size: 2.5rem;
+}
+
+.footer{
+	background-color: black;
+	border-top: 1px solid #e71d36;
+	color: #e71d36;
+	a{
+		font-family: 'Arial', 'Helvetica';
+		font-size: 1.5rem;
+		font-weight: 600;
+		text-decoration: none; 
+		color: #e71d36;
+		margin-right: 50px;
+		transition: all 0.2s ease-in-out;
+		&:hover{
+			color: #e8e8e8;
+		}
+	}
+	.button{
+		background-color: #e71d36;
+	}
+	@media all and (min-width: 768px){
+		p{
+			font-family: 'Arial', 'Helvetica';
+			margin-left: 10px;
+		}
+		form{
+			font-size: 1rem;
+			font-family: 'Arial', 'Helvetica';
+			margin-left: 40px;
+			input{
+				font-size: 1rem;
+			}
+		}
+	}
+}
+
+.newsletter{
+	display: none;
+	margin-right: 50px;
+	@media all and (min-width: 768px){
+		display: inline-block;
+	}
+}
