@@ -1,5 +1,5 @@
 .titleTable{
-	background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+	background: linear-gradient(to right, $colorFondo, $colorSecundario) ;
 	width: 75%;
 	margin: auto;
 	margin-bottom: 5px;
@@ -7,8 +7,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	font-size: 1.5rem;
-	font-family: 'Arial', 'Helvetica';
-	color: black;
+	font-family: $fontRegular;
+	color: $colorPrimario;
 	text-decoration: underline;
 	@media all and (min-width: 992px){
 		font-size: 2rem;
@@ -26,9 +26,9 @@
 	flex-direction: column;
 	width: 75%;
 	margin: auto;
-	font-family: 'Arial', 'Helvetica';
+	font-family: $fontRegular;
 	font-size: 1.5rem;
-	color: black;
+	color: $colorPrimario;
 	@media all and (min-width: 768px){
 		margin-bottom: 10px;
 	}
@@ -40,7 +40,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		background: linear-gradient(to right, #e8e8e8, #e71d36) ;
+		background: linear-gradient(to right, $colorFondo, $colorSecundario) ;
 		margin-bottom: 5px;
 		transition: all 0.2s ease-in-out;
 		@media all and (min-width: 992px){

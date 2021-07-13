@@ -3,35 +3,35 @@ body{
 }
 
 .header{
-	background-color: black;
-	border-bottom: 1px solid #e71d36;
+	background-color: $colorPrimario;
+	border-bottom: 1px solid $colorSecundario;
 	img{
 		width: 80%;
 	}
 	a{
-		font-family: 'Arial', 'Helvetica';
+		font-family: $fontRegular;
 		font-size: 1.5rem;
 		font-weight: 600;
 		text-decoration: none;
-		color: #e71d36;
+		color: $colorSecundario;
 		transition: all 0.2s ease-in-out;
 		&:hover{
-			color: #e8e8e8;
+			color: $colorFondo;
 		}
 		@media all and (min-width: 992px){
 			margin-right: 50px;
 		}
 	}
 	.button{
-		background-color: #e71d36;
+		background-color: $colorSecundario;
 	}
 }
 
 .title{
 	font-size: 3.5rem;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: $fontTitles;
 	text-align: center;
-	color: #e71d36;
+	color: $colorSecundario;
 	margin: 10px 0px;
 	@media all and (min-width: 768px){
 		font-size: 5rem;
@@ -39,10 +39,10 @@ body{
 }
 
 .title2{
-	font-family: 'Arial', 'Helvetica';
+	font-family: $fontRegular;
 	font-size: 2.5rem;
 	text-align: center;
-	color: #e71d36;
+	color: $colorSecundario;
 	@media all and (min-width: 768px){
 		font-size: 3rem;
 	}
@@ -54,20 +54,20 @@ body{
 }
 
 .title3{
-	font-family: 'Arial', 'Helvetica';
+	font-family: $fontRegular;
 	font-size: 1.5rem;
 	margin-left: 125px;
 	margin-top: 10px;
 }
 
 .subtitle{
-	color: black;
-	font-family: 'Arial', 'Helvetica';
+	color: $colorPrimario;
+	font-family: $fontRegular;
 	text-align: center;
 }
 
 .promo{
-	font-family: 'Arial', 'Helvetica';
+	font-family: $fontRegular;
 	font-size: 2rem;
 	text-align: justify;
 	margin-bottom: 10px;
@@ -81,12 +81,12 @@ body{
 	@media all and (min-width: 992px){
 		font-size: 3.5rem;
 		margin: 50px 0px;
-		color: black;
+		color: $colorPrimario;
 	}
 }
 
 .productos{
-	font-family: 'Arial', 'Helvetica';
+	font-family: $fontRegular;
 	font-size: 2rem;
 	flex-direction: column;
 	@media all and (min-width: 992px){
@@ -109,8 +109,8 @@ body{
 }
 
 .prod{
-	background-color: black;
-	color: #e71d36;
+	background-color: $colorPrimario;
+	color: $colorSecundario;
 	margin-bottom: 5px;
 }
 
@@ -119,32 +119,32 @@ h5{
 }
 
 .footer{
-	background-color: black;
-	border-top: 1px solid #e71d36;
-	color: #e71d36;
+	background-color: $colorPrimario;
+	border-top: 1px solid $colorSecundario;
+	color: $colorSecundario;
 	a{
-		font-family: 'Arial', 'Helvetica';
+		font-family: $fontRegular;
 		font-size: 1.5rem;
 		font-weight: 600;
 		text-decoration: none; 
-		color: #e71d36;
+		color: $colorSecundario;
 		margin-right: 50px;
 		transition: all 0.2s ease-in-out;
 		&:hover{
-			color: #e8e8e8;
+			color: $colorFondo;
 		}
 	}
 	.button{
-		background-color: #e71d36;
+		background-color: $colorSecundario;
 	}
 	@media all and (min-width: 768px){
 		p{
-			font-family: 'Arial', 'Helvetica';
+			font-family: $fontRegular;
 			margin-left: 10px;
 		}
 		form{
 			font-size: 1rem;
-			font-family: 'Arial', 'Helvetica';
+			font-family: $fontRegular;
 			margin-left: 40px;
 			input{
 				font-size: 1rem;
