@@ -150,6 +150,11 @@ h5 {
     .newsletter {
       display: inline-block; } }
 
+.modalForm {
+  font-family: "Arial", "Helvetica";
+  color: #e71d36;
+  background-color: black; }
+
 .titleTable {
   background: linear-gradient(to right, #e8e8e8, #e71d36);
   width: 75%;

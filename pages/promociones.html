@@ -64,12 +64,12 @@
 	   <div class="newsletter">
 	      	<div class="title3">Newsletter</div>
 	      	<div>
-	        <p>Reciba las últimas promociones y novedades!</p>
+	        <p>¡Reciba las últimas promociones y novedades!</p>
 	    	</div>
 	    	<form action="" method="GET">
 	      		<label for="mail">E-mail</label>
 	      		<input id="mail" type="email" name="emailNwt" placeholder="Ingrese su E-mail">
-	      		<input type="submit" name="sub_Nwt" value="ENVIAR">
+	      		<button type="button" data-toggle="modal" data-target="#exampleModal">ENVIAR</button>
 	    	</form>
 	    </div>
 	    <div>
@@ -81,6 +81,22 @@
 	        <li><a href="contacto.html">Contacto</a></li>
 	      </ul>
 	    </div>
+	</div>
+	<!-- Modal Newsletter-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header modalForm">
+	        <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+	      </div>
+	      <div class="modal-body modalForm">
+	        ¡Lo sentimos! Esta función no se encuentra disponible aún. Estamos trabajando para mejorar nuestro sitio.
+	      </div>
+	      <div class="modal-footer modalForm">
+	        <button type="button" class="btn buttonHorario" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
 	</div>
 	<script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
