@@ -61,7 +61,8 @@ body {
   font-family: "Arial", "Helvetica";
   font-size: 2rem;
   text-align: justify;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  color: black; }
   .promo img {
     width: 100%; }
   @media all and (min-width: 768px) {
@@ -71,8 +72,7 @@ body {
   @media all and (min-width: 992px) {
     .promo {
       font-size: 3.5rem;
-      margin: 50px 0px;
-      color: black; } }
+      margin: 50px 0px; } }
 
 .productos {
   font-family: "Arial", "Helvetica";
@@ -157,7 +157,7 @@ h5 {
       .titleTable .foto {
         display: inline-block; } }
 
-.padre {
+.listaProd {
   display: flex;
   flex-direction: column;
   width: 75%;
@@ -166,13 +166,13 @@ h5 {
   font-size: 1.5rem;
   color: black; }
   @media all and (min-width: 768px) {
-    .padre {
+    .listaProd {
       margin-bottom: 10px; } }
   @media all and (min-width: 992px) {
-    .padre {
+    .listaProd {
       font-size: 2rem;
       margin-bottom: 10px; } }
-  .padre div {
+  .listaProd div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -180,21 +180,22 @@ h5 {
     margin-bottom: 5px;
     transition: all 0.2s ease-in-out; }
     @media all and (min-width: 992px) {
-      .padre div:hover {
+      .listaProd div:hover {
         transform: scale(1.1); } }
-  .padre img {
+  .listaProd img {
     display: none; }
     @media all and (min-width: 992px) {
-      .padre img {
+      .listaProd img {
         display: inline-block;
         width: 7%;
         transition: all 0.2s ease-in-out; }
-        .padre img:hover {
+        .listaProd img:hover {
           transform: scale(3.5); } }
 
 .nosotros {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  color: black; }
   @media all and (min-width: 992px) {
     .nosotros .title2 {
       text-align: left;
@@ -238,7 +239,8 @@ h5 {
   font-family: "Arial", "Helvetica";
   font-size: 1.3rem;
   margin-left: 5px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  color: black; }
   @media all and (min-width: 992px) {
     .formContacto {
       font-size: 1.5rem; } }
