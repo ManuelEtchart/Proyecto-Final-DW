@@ -5,7 +5,7 @@
 
 .textMapa{
 	font-family: $fontRegular;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	color: $colorPrimario;
@@ -22,6 +22,10 @@
 	&:focus{
 		box-shadow: 0 0 0 .2rem transparent;
 	}
+}
+
+.dropdown-menu p{
+	margin: 0px;
 }
 
 .formContacto{

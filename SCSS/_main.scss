@@ -122,6 +122,14 @@ h5{
 	background-color: $colorPrimario;
 	border-top: 1px solid $colorSecundario;
 	color: $colorSecundario;
+	display: flex;
+	flex-direction: column;
+	div ul{
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		margin-top: 5px;
+	}
 	a{
 		font-family: $fontRegular;
 		font-size: 1.5rem;
@@ -138,6 +146,7 @@ h5{
 		background-color: $colorSecundario;
 	}
 	@media all and (min-width: 768px){
+		flex-direction: row;
 		p{
 			font-family: $fontRegular;
 			margin-left: 10px;
@@ -149,6 +158,12 @@ h5{
 			input{
 				font-size: 1rem;
 			}
+		}
+	}
+	@media all and (min-width: 992px){
+		div ul {
+			flex-direction: row;
+			margin-top: 40px;
 		}
 	}
 }

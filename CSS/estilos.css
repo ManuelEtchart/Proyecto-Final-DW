@@ -105,7 +105,14 @@ h5 {
 .footer {
   background-color: black;
   border-top: 1px solid #e71d36;
-  color: #e71d36; }
+  color: #e71d36;
+  display: flex;
+  flex-direction: column; }
+  .footer div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px; }
   .footer a {
     font-family: "Arial", "Helvetica";
     font-size: 1.5rem;
@@ -119,15 +126,21 @@ h5 {
   .footer .button {
     background-color: #e71d36; }
   @media all and (min-width: 768px) {
-    .footer p {
-      font-family: "Arial", "Helvetica";
-      margin-left: 10px; }
-    .footer form {
-      font-size: 1rem;
-      font-family: "Arial", "Helvetica";
-      margin-left: 40px; }
-      .footer form input {
-        font-size: 1rem; } }
+    .footer {
+      flex-direction: row; }
+      .footer p {
+        font-family: "Arial", "Helvetica";
+        margin-left: 10px; }
+      .footer form {
+        font-size: 1rem;
+        font-family: "Arial", "Helvetica";
+        margin-left: 40px; }
+        .footer form input {
+          font-size: 1rem; } }
+  @media all and (min-width: 992px) {
+    .footer div ul {
+      flex-direction: row;
+      margin-top: 40px; } }
 
 .newsletter {
   display: none;
@@ -220,7 +233,7 @@ h5 {
 
 .textMapa {
   font-family: "Arial", "Helvetica";
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-left: 10px;
   margin-bottom: 10px;
   color: black; }
@@ -234,6 +247,9 @@ h5 {
     color: black; }
   .buttonHorario:focus {
     box-shadow: 0 0 0 .2rem transparent; }
+
+.dropdown-menu p {
+  margin: 0px; }
 
 .formContacto {
   font-family: "Arial", "Helvetica";
