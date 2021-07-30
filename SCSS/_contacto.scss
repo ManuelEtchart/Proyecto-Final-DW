@@ -1,11 +1,14 @@
 .contacto{
 	display: flex;
 	flex-direction: column;
+	@media all and (min-width: 992px){
+		flex-direction: row;
+	}
 }
 
 .textMapa{
 	font-family: $fontRegular;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	color: $colorPrimario;
@@ -35,12 +38,12 @@
 	margin-bottom: 20px;
 	color: $colorPrimario;
 	@media all and (min-width: 992px){
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 	input, select{
 		font-size: 1rem;
 		@media all and (min-width: 992px){
-			font-size: 1.5rem;
+			font-size: 1rem;
 		}
 	}
 	textarea{
@@ -51,7 +54,7 @@
 			width: 350px;
 		}
 		@media all and (min-width: 992px){
-			font-size: 1.5rem;
+			font-size: 1rem;
 			width: 500px;
 		}
 	}
