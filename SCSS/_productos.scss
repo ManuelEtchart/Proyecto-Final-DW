@@ -13,7 +13,7 @@
 	@media all and (min-width: 992px){
 		font-size: 2rem;
 	}
-	.foto{
+	.ingredientes{
 		display: none;
 		@media all and (min-width: 992px){
 			display: inline-block;
@@ -42,21 +42,20 @@
 		justify-content: space-between;
 		background: linear-gradient(to right, $colorFondo, $colorSecundario) ;
 		margin-bottom: 5px;
-		transition: all 0.2s ease-in-out;
+		transition: all 0.1s ease-in-out;
 		@media all and (min-width: 992px){
 			&:hover{
 				transform: scale(1.1);
 			}
 		}
 	}
-	img{
+	button{
 		display: none;
 		@media all and (min-width: 992px){
 			display: inline-block;
-			width: 7%;
 			transition: all 0.2s ease-in-out;
 			&:hover{
-				transform: scale(3.5);
+				transform: scale(1.1);
 			}
 		}
 	}

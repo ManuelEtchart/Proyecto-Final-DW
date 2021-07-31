@@ -42,6 +42,7 @@ body{
 	font-family: $fontRegular;
 	font-size: 2.5rem;
 	text-align: center;
+	margin-top: 30px;
 	color: $colorSecundario;
 	@media all and (min-width: 768px){
 		font-size: 3rem;
@@ -71,6 +72,7 @@ body{
 	font-size: 2rem;
 	line-height: 120%;
 	text-align: center;
+	margin-top: 30px;
 	margin-bottom: 10px;
 	color: $colorPrimario;
 	img{
@@ -155,7 +157,7 @@ h5{
 		form{
 			font-size: 1rem;
 			font-family: $fontRegular;
-			margin-left: 40px;
+			margin-left: 10px;
 			input{
 				font-size: 1rem;
 			}
